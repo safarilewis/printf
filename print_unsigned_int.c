@@ -17,12 +17,12 @@ int print_u(va_list u)
 	a[0] = n / m;
 	for (i = 1; i < 10; i++)
 	{
-		m /= 10;
+		m = m / 10;
 		a[i] = (n / m) % 10;
 	}
 	for (i = 0, sum = 0, count = 0; i < 10; i++)
 	{
-		sum += a[i];
+		sum = sum + a[i];
 		if (sum || i == 9)
 		{
 			_putchar('0' + a[i]);
@@ -86,7 +86,7 @@ int print_b(va_list b)
 	}
 	for (i = 0, sum = 0, count = 0; i < 32; i++)
 	{
-		sum += a[i];
+		sum = sum + a[i];
 		if (sum || i == 31)
 		{
 			_putchar('0' + a[i]);
