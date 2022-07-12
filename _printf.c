@@ -64,8 +64,8 @@ int _printf(const char *format, ...)
 		f = check_for_specifiers(&format[i + 1]);
 		if (f != NULL)
 		{
-			count += f(valist);
-			i += 2;
+			count = count + f(valist);
+			i = i +  2;
 			continue;
 		}
 		if (!format[i + 1])
