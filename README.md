@@ -10,7 +10,7 @@ To get started with this project, follow these steps:
    ```bash
    git clone <repository-url>
 2. Compilation:
-   ```gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_printf```
+   ```gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o _printf```
 3. Usage Example:
 ```
 x@ubuntu:~/c/printf$ cat main.c
