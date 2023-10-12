@@ -88,7 +88,7 @@ h: For short integers.
 This project is under MIT License. To contribute, fork the repository
 
 ## Credits
-This project was created by [Lewis Safari](https://github.com/safarilewis).
+This project was created by [Lewis Safari](https://github.com/safarilewis) and [Mary Muriuki](https://github.com/MaryMuriuki).
 
 Enjoy Coding!
 Happy coding and have fun working on your custom printf function!
